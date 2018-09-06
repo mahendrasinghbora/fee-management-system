@@ -1,0 +1,190 @@
+/* Webfonts */
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,400italic|Alegreya+Sans:400,400italic|Alegreya:400italic,900italic);
+
+/*
+ * Base structure
+ */
+
+body {
+	background-color: #EDEFF0;
+	padding-top: 4rem;
+	font-family: 'Alegreya Sans', Verdana, Tahoma, sans-serif;
+	font-size: 1.25em;
+	line-height: 1.6;
+	margin: 0;
+	color: #000;
+	font-feature-settings: "kern", "liga";
+	-moz-font-feature-settings: "kern", "liga";
+	-moz-font-feature-settings: "kern=1", "liga=1";
+	-ms-font-feature-settings: "kern", "liga";
+	-o-font-feature-settings: "kern", "liga";
+	-webkit-font-feature-settings: "kern", "liga";
+}
+
+h1 {
+	font-family: 'Alegreya Sans SC', 'Alegreya Sans', Verdana, Tahoma, sans-serif;
+	font-weight: normal;
+	font-size: 3.157em;
+	line-height: 1.1;
+}
+
+h3 {
+	font-family: 'Alegreya', Georgia, serif;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 1.2;
+}
+
+/* Change icon colors. */
+.fa-pencil {
+	color: #2C9676;
+}
+
+.fa-minus-circle {
+	color: #E15258;
+}
+
+.fa-stack-overflow {
+	color: #000;
+}
+
+.fa-github {
+	color: #000;
+}
+
+/* To add a new breakpoint to the card deck. */
+@media (max-width: 950px) { 
+	.card-deck-wrapper {margin-right:0; margin-left:0;}
+	.card-deck {
+		display: block;
+		width: 100%;
+		table-layout: fixed;
+		margin: auto;
+		margin-bottom: 1rem;
+	}
+	.card-deck .card {
+		display: block;
+		margin: auto;
+		margin-bottom: 1rem;
+	}
+}
+
+/* 
+ * form-styles------------------------------------------------------------------------------------ 
+ */
+.form-banner {
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	font-weight: 500;
+	padding: 20px;
+	color: #fff; 
+	font-size: 24px;
+	margin-bottom: 0;
+	line-height: 1.1;
+}
+
+.form {
+	border-radius: 0 0 5px 5px; 
+	box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+	background-color: #fff;
+}
+
+input[type=text] { 
+	border: 2px solid #d4d9dd; 
+	color: #40484a; 
+	background-color: #f9fafa;
+}
+
+input[type=text]:focus {
+	background-color: #fff;
+	border: 2px solid #8C9AA6;
+	box-shadow: none;
+}
+
+input[type=password] { 
+	border: 2px solid #d4d9dd; 
+	color: #40484a; 
+	background-color: #f9fafa;
+}
+
+input[type=password]:focus {
+	background-color: #fff;
+	border: 2px solid #8C9AA6;
+	box-shadow: none;
+}
+
+.form textarea {
+	border: 2px solid #d4d9dd;
+	background-color: #f9fafa;
+}
+
+.form textarea:focus {
+ 	background-color: #fff;
+ 	border: 2px solid #8C9AA6;
+ 	box-shadow: none;
+ }
+
+.form label {
+	font-size: 18px; 
+	font-weight: 500;  
+	color: #000;
+}
+
+.form button[type=submit] {
+ 	font-weight: 500; 
+ 	font-size: 16px;	
+ }
+
+.form button[type=reset] {
+	font-weight: 500; 
+	font-size: 16px;	
+}
+
+.form select {
+	border: 2px solid #d4d9dd;
+	background-color: #f9fafa;
+}
+
+.form select:focus {
+	background-color: #fff;
+ 	border: 2px solid #8C9AA6;
+ 	box-shadow: none;
+}
+
+
+/* Table styles -------------------------------------------------------------------------------- */
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color:rgba(246,244,236,.75);
+}
+
+.table {
+	box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+}
+
+.table caption {
+	font-size: 28px;
+	color: #000;
+}
+
+.card-box {
+	box-shadow: 0 2px 0 rgba(0,0,0,0.06);
+	border-radius:5px 5px 4px 4px;
+	color: #b2bac2;
+	min-height: 250px;
+}
+
+.card-box a {
+	text-decoration: none;
+	color: #000;
+}
+
+.card-banner {
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	font-weight: 500;
+	padding: 16px;
+	color: #fff; 
+	font-size: 24px;
+	margin-bottom: 0;
+	line-height: 1.1;
+}
